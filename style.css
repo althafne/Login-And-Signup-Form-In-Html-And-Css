@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: dodgerblue;
+}
+.logo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.logo a{
+    color: black;
+}
+.logo a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.a-1{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+.a-1:hover{
+    color: black;
+}
+.form{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.input{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    outline: none;
+}
+.btn{
+    border-radius: .5rem;
+    background: rgb(209, 0, 157);
+    color: rgb(0, 245, 143);
+}
+.social-login{
+    text-align: center;
+    font-weight: bold;
+}
+.social-login h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline red;
+}
+.social-login a{
+    color: rgb(132, 1, 240);
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.social-login a:hover{
+    color: rgb(0, 235, 215);
+}
+.footer{
+    background: url(./footer.svg) rgb(0, 255, 191);
+}
+.social{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.social h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline red;
+}
+.social a{
+    color: rgb(252, 4, 57);
+    font-size: 30px;
+    filter: grayscale(100);
+}
+.social a:hover{
+    filter: grayscale(0);
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+}
+.copyright h4{
+    font-size: 30px;
+    color: rgb(255, 0, 242);
+    cursor: pointer;
+    filter: grayscale(100);
+}
+.copyright h4:hover{
+    filter: grayscale(0);
+}
+.h-4{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.p-1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.btn-1{
+    text-align: center;
+}
+@media only screen and (max-width:320px) {
+    .form{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .l-1{
+        font-weight: bold;
+        font-size: 30px;
+        
+    }
+}
